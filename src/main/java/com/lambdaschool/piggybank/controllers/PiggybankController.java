@@ -26,7 +26,7 @@ public class PiggybankController {
         for (Piggybank p : myList) {
             if (p.getCoinid() == 1) {
                 total += p.getValue() * p.getQuantity();
-                System.out.println(p.getQuantity() + "" + ((p.getQuantity() > 1) ? p.getNameplural() : p.getName()));
+                System.out.println(p.getQuantity() + " " + ((p.getQuantity() > 1) ? p.getNameplural() : p.getName()));
             }
             if (p.getCoinid() == 2) {
                 total += p.getValue() * p.getQuantity();
